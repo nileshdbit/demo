@@ -1,0 +1,138 @@
+body{
+	background-color:deeppink;
+	font-family: sans-serif;
+}
+.wrapper{
+	margin : 0 auto;
+	max-width:100%;
+	border:1px solid white;
+}
+header{
+	padding:0;
+	clear:both;
+
+}
+nav{
+	text-align:center;
+	padding: 0;
+	margin : 0 auto;
+	max-width:19%;
+	border:1px	solid white;	
+}
+nav ul{
+	list-style-type:none;
+	padding: 0;
+    margin: 0 10px;
+}
+nav li{
+	display:inline-block;
+}
+nav a{
+	display:block;
+	padding:10px;
+	text-decoration:none;
+    color: forestgreen;
+}
+nav a:hover{
+	background-color:black;
+	color:white;
+}
+#main{
+	width:100%;
+	border:1px	solid white;
+
+}
+#first{
+	background-color:wheat;
+		max-width:32%;
+		padding:0px 7px 0px 10px;
+	border:1px solid blue;
+	  position: relative; 
+	    
+}
+#second{
+	background-color:wheat;
+	max-width:32%;
+	padding:0px 7px 0px 10px;
+	border:1px solid blue;
+	  position: relative; 
+	   
+}
+#third{
+	background-color:wheat;
+	max-width:32%;
+	padding:0px 7px 0px 10px;
+	border:1px solid blue;
+	  position: relative; 
+	  
+}
+footer{
+    clear: both;
+    background-color: #222;
+    text-align: center;
+    padding-top: 30px;
+    color: #CCC;
+	width:100%;
+}
+
+@media screen and (min-width: 1200px)
+{
+    .wrapper{
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width:800px)
+{
+    header{
+        text-align: center;
+    }
+    body{
+        background-color: red;
+    }
+    nav{
+        float: left;
+        width: 20%;
+    }
+    #main{
+        float: right;
+        width: 80%;
+    }
+    nav li{
+        display: block;
+        padding: 10px 0;
+        width: 90%;
+    }
+    nav{
+        padding: 0;
+    }
+    nav ul{
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 520px)
+{  
+    #first {
+width: 31.0%;
+  float: left;
+  height: 100px;
+    }
+    #second {
+width: 31.0%;
+
+  float: left;
+  height: 100px;
+    }
+    #third{
+width: 31.0%;
+  float: left;
+  height: 100px;
+    }
+    section{
+        max-width: 100%
+    }
+}
+
+
